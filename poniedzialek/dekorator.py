@@ -17,6 +17,12 @@ def f():
 
     return fWew
 
+# def dekor(funk):
+#     def wew():
+#         print("Dekorujemy")
+#         return funk()
+#     return wew
+
 def dekor(funk):
     def wew():
         print("Dekorujemy")
