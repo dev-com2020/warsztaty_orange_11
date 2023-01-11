@@ -1,5 +1,7 @@
-def powitanie():
-    print("Witaj")
+def powitanie(imie: str):
+    print(f"Witaj, {imie.title()} !")
 
-powitanie()
+
+powitanie("tomek")
+powitanie(str(456))
 
